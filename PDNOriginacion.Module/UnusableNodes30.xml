@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Inmueble">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="MedidaM2" DisplayFormat="{0:n0}" EditMask="n0" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

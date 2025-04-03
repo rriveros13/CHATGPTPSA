@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application CurrentUserDisplayMode="Caption">
+  <ActionDesign>
+    <Actions>
+      <Action Id="AbrirGMaps" ImageName="BO_Localization" />
+      <Action Id="AbrirGMapsPopup" ImageName="BO_Localization" />
+      <Action Id="DatosPersonaPersona" ImageName="BO_MyDetails" />
+      <Action Id="DatosPersonaPersonaPU" ImageName="BO_MyDetails" />
+      <Action Id="DatosPersonaSolicitud" ImageName="BO_MyDetails" />
+      <Action Id="regSeguimientoPersona" ImageName="BO_Phone" PaintStyle="Image" />
+      <Action Id="regSeguimientoPersona2" ImageName="BO_Phone" PaintStyle="Image" />
+      <Action Id="Transiciones" ImageName="BO_StateMachine" PaintStyle="CaptionAndImage" />
+      <Action Id="UserViewVariants" Caption="Vistas" TargetObjectsCriteria="">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="DeleteViewVariant" Caption="Eliminar Vista" />
+          <ChoiceActionItem Id="EditViewVariant" Caption="Editar Vista" />
+          <ChoiceActionItem Id="NewViewVariant" Caption="Nueva Vista" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="VerAdjuntosPersona" ImageName="BO_FileAttachment" />
+      <Action Id="VerAdjuntosSolicitud" ImageName="BO_FileAttachment" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Cheque">
+      <OwnMembers>
+        <Member Name="ImagenFrente" PropertyEditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxImagePropertyEditor" />
+        <Member Name="ImagenReverso" PropertyEditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxImagePropertyEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="PDNOriginacion.Module.BusinessObjects.MedioIngreso" DefaultLookupEditorMode="AllItems" />
+  </BOModel>
+  <NavigationItems StartupNavigationItem="" />
+  <Options CollectionsEditMode="Edit" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="19.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerAspNetModule" Version="19.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="19.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="19.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="19.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Campo_DetailView">
+      <HiddenActions>
+        <ActionLink ActionId="Campo_AgregarAProducto" IsNewNode="True" />
+      </HiddenActions>
+    </DetailView>
+    <ListView Id="Campo_ListView">
+      <HiddenActions>
+        <ActionLink ActionId="Campo_AgregarAProducto" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <ListView Id="Campo_LookupListView">
+      <HiddenActions>
+        <ActionLink ActionId="Campo_AgregarAProducto" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <DetailView Id="Direccion_DetailView">
+      <Items>
+        <PropertyEditor Id="Localizacion">
+          <MapSettings Type="Hybrid" />
+        </PropertyEditor>
+      </Items>
+    </DetailView>
+    <DetailView Id="Inmueble_DetailView">
+      <HiddenActions>
+        <ActionLink ActionId="agregar_a_solicitud" IsNewNode="True" />
+      </HiddenActions>
+    </DetailView>
+    <ListView Id="Inmueble_ListView">
+      <HiddenActions>
+        <ActionLink ActionId="agregar_a_solicitud" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <ListView Id="Inmueble_Tasaciones_ListView" AllowDelete="True" AllowUnlink="False" AllowLink="False" AllowNew="False" />
+    <DetailView Id="Persona_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="@74e799eb-61e4-4dea-acfc-91b303b4521b" ActionContainer="CargaRapidaInmueble" />
+        <PropertyEditor Id="SegundoApellido" PropertyName="SegundoApellido" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="66.3225806451613">
+            <TabbedGroup Id="Item1" RelativeSize="98.054474708171213">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1" RelativeSize="49.945945945945944">
+                  <LayoutItem Id="MedioIngreso" ViewItem="MedioIngreso" Index="0" RelativeSize="8.0610021786492378" IsNewNode="True" Removed="True" />
+                  <LayoutItem Id="Estado" RelativeSize="5.882352941176471" Index="1" />
+                  <LayoutItem Id="PrimerNombre" RelativeSize="5.6644880174291936" Index="2" />
+                  <LayoutItem Id="SegundoNombre" RelativeSize="5.6644880174291936" Index="3" />
+                  <LayoutItem Id="PrimerApellido" RelativeSize="5.6644880174291936" Index="4" />
+                  <LayoutItem Id="SegundoApellido" ViewItem="SegundoApellido" Index="5" RelativeSize="5.6644880174291936" IsNewNode="True" />
+                  <LayoutItem Id="TipoDocumento" Index="6" RelativeSize="5.882352941176471" />
+                  <LayoutItem Id="Documento" RelativeSize="5.6644880174291936" Index="7" />
+                  <LayoutItem Id="PaisDocumento" Index="8" RelativeSize="5.882352941176471" />
+                  <LayoutItem Id="Nacionalidad" Index="9" RelativeSize="45.969498910675384" />
+                </LayoutGroup>
+                <LayoutGroup Id="Persona_col2" RelativeSize="50.054054054054056">
+                  <LayoutItem Id="FechaAlta" RelativeSize="7.8431372549019605" />
+                  <LayoutItem Id="FormaDeSeguiminetoPreferida" RelativeSize="5.882352941176471" />
+                  <LayoutItem Id="HorarioSeguimiento" RelativeSize="5.6644880174291936" />
+                  <LayoutItem Id="TelefonoPreferido" RelativeSize="5.882352941176471" />
+                  <LayoutItem Id="CantSeguimientos" RelativeSize="5.6644880174291936" />
+                  <LayoutItem Id="CantSolicitudes" RelativeSize="57.298474945533769" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item2">
+                <LayoutItem Id="FechaNacimiento" RelativeSize="8.0610021786492378" />
+                <LayoutItem Id="Edad" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CorreoParticular" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CorreoLaboral" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="Profesion" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="Salario" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="EstadoCivil" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="DireccionParticular" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="Genero" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="PropietarioInquilino" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="Tipo" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="Ruc" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="RazonSocial" RelativeSize="22.875816993464053" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item3" Direction="Vertical" RelativeSize="100" Caption="CR - Inmueble">
+                <LayoutItem Id="CRI_CuentaCatastral" RelativeSize="7.8431372549019605" />
+                <LayoutItem Id="CuentaCatastral" ViewItem="CuentaCatastral" Index="1" RelativeSize="2.1786492374727668" IsNewNode="True" />
+                <LayoutItem Id="CRI_Departamento" Index="2" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRI_Ciudad" Index="3" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRI_Barrio" Index="4" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRI_Calle" Index="5" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRI_Numero" Index="6" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRI_ValorAproximado" Index="7" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRI_SuperficieM2" Index="8" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRI_ImpuestoAlDia" Index="9" RelativeSize="5.2287581699346406" />
+                <LayoutItem Id="CRI_TipoCamino" Index="10" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRI_EstadoTitulo" Index="11" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRI_TipoInmueble" Index="12" RelativeSize="5.882352941176471" />
+                <LayoutGroup Id="Auto1216c00c-db66-4f67-84b2-dade157de908" Index="13" RelativeSize="26.797385620915033">
+                  <LayoutItem Id="CRI_TieneTitulo" RelativeSize="8.1300813008130088" />
+                  <LayoutItem Id="@74e799eb-61e4-4dea-acfc-91b303b4521b" RelativeSize="31.707317073170731" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item4">
+                <LayoutItem Id="CRD_Departamento" RelativeSize="8.0610021786492378" />
+                <LayoutItem Id="CRD_Ciudad" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRD_Barrio" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRD_Calle" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRD_Numero" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="@f439573a-3069-4c50-9157-b5f7c3d18c1b" RelativeSize="68.84531590413944" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item5">
+                <LayoutItem Id="CRT_TipoTelefono" RelativeSize="8.0610021786492378" />
+                <LayoutItem Id="CRT_Tipo" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRT_Prefijo" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="CRT_Numero" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="CRT_Whatsapp" RelativeSize="5.2287581699346406" />
+                <LayoutItem Id="@e6e3cf26-c735-46b0-8b79-f53c536dd195" RelativeSize="69.281045751633982" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item6">
+                <LayoutItem Id="InteresadoPrestamo" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="PoseeInmueble" RelativeSize="8.0610021786492378" />
+                <LayoutItem Id="ProcesoCreditoExplicado" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="TieneComoDemostrarIngresos" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="MontoSolicitado" RelativeSize="5.6644880174291936" />
+                <LayoutItem Id="MotivoSolicitud" RelativeSize="5.882352941176471" />
+                <LayoutItem Id="OpeMoraDemandaInhiDet" RelativeSize="56.862745098039213" />
+              </LayoutGroup>
+            </TabbedGroup>
+            <LayoutItem Id="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" RelativeSize="1.9455252918287938" />
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="14.96774193548387" />
+          <TabbedGroup Id="Tabs" RelativeSize="18.70967741935484" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Persona_DetailView_CREDIFACIL">
+      <Items>
+        <PropertyEditor Id="CuotasPagadas" PropertyName="CuotasPagadas" View="Persona_CuotasPagadas_ListView" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="61.669829222011387">
+            <TabbedGroup Id="Item1" RelativeSize="76.3076923076923">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1" RelativeSize="49.212598425196852" />
+                <LayoutGroup Id="Persona_col2" RelativeSize="50.787401574803148" />
+              </LayoutGroup>
+            </TabbedGroup>
+            <LayoutItem Id="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" RelativeSize="23.692307692307693" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="38.1404174573055" Index="2">
+            <LayoutGroup Id="Prestamos" Direction="Vertical">
+              <LayoutItem Id="CuotasPagadas" Index="0" RelativeSize="100" ViewItem="CuotasPagadas" IsNewNode="True" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Persona_Inmuebles_ListView">
+      <HiddenActions>
+        <ActionLink ActionId="agregar_a_solicitud" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <ListView Id="Solicitud_Inmuebles_ListView">
+      <HiddenActions>
+        <ActionLink ActionId="agregar_a_solicitud" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <DetailView Id="SolicitudPersonaEgreso_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="18.838709677419356">
+            <LayoutGroup Id="SolicitudPersonaEgreso" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="Auditoria_Group" Direction="Vertical" RelativeSize="81.161290322580641">
+            <LayoutItem Id="Auditoria" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

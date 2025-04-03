@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Solicitud">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="IdSolicitud" DisplayFormat="{0:N0}" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <ListView Id="Solicitud_ListView_MisSol">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IdSolicitud" PropertyName="IdSolicitud" Caption="Id" SortIndex="0" />
+      </Columns>
+    </ListView>
+    <ListView Id="Solicitud_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IdSolicitud" DisplayFormat="{0:N0}" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

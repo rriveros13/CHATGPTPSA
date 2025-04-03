@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="SeguimientoProgramado_ListView_Mis">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Usuario" PropertyName="Usuario" Width="70" Index="4" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Seguimiento">
+              <LayoutGroup Id="Seguimiento_col2">
+                <LayoutItem Id="FechaInicio" RelativeSize="20.454545454545453" />
+                <LayoutItem Id="FechaFin" RelativeSize="14.772727272727273" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

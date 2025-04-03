@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Consulta_ListView_Mobile">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Plazo" PropertyName="Plazo" Width="50" Index="78" />
+        <ColumnInfo Id="dias_morosidad_interna" PropertyName="dias_morosidad_interna" Width="50" Index="73" />
+        <ColumnInfo Id="n_banco_cheque" PropertyName="n_banco_cheque" Width="50" Index="72" />
+        <ColumnInfo Id="che_rech_inactivos" PropertyName="che_rech_inactivos" Width="50" Index="71" />
+        <ColumnInfo Id="che_rech_activos" PropertyName="che_rech_activos" Width="50" Index="70" />
+        <ColumnInfo Id="Nacimiento" PropertyName="Nacimiento" Width="70" Index="16" />
+        <ColumnInfo Id="Nombre2" PropertyName="Nombre2" Width="70" Index="15" />
+        <ColumnInfo Id="Nombre1" PropertyName="Nombre1" Width="70" Index="14" />
+        <ColumnInfo Id="Apellido2" PropertyName="Apellido2" Width="70" Index="12" />
+        <ColumnInfo Id="Apellido1" PropertyName="Apellido1" Width="70" Index="11" />
+        <ColumnInfo Id="Nacionalidad" PropertyName="Nacionalidad" Width="70" Index="10" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Consulta_DetailView_Mobile">
+      <Items Id="Items">
+        <PropertyEditor Id="TipoDocumentoConyuge" PropertyName="TipoDocumentoConyuge" />
+        <PropertyEditor Id="TipoDeudor" PropertyName="TipoDeudor" />
+        <PropertyEditor Id="TipoCliente" PropertyName="TipoCliente" />
+        <PropertyEditor Id="TelefonoEmpleo" PropertyName="TelefonoEmpleo" />
+        <PropertyEditor Id="Telefono" PropertyName="Telefono" />
+        <PropertyEditor Id="Sexo" PropertyName="Sexo" />
+        <PropertyEditor Id="Segmento" PropertyName="Segmento" />
+        <PropertyEditor Id="Prop_inquilino" PropertyName="Prop_inquilino" />
+        <PropertyEditor Id="PromedioAtraso" PropertyName="PromedioAtraso" />
+        <PropertyEditor Id="ProfesionCEFISA" PropertyName="ProfesionCEFISA" />
+        <PropertyEditor Id="Profesion" PropertyName="Profesion" />
+        <PropertyEditor Id="Plazo" PropertyName="Plazo" />
+        <PropertyEditor Id="PisoEmpleo" PropertyName="PisoEmpleo" />
+        <PropertyEditor Id="Piso" PropertyName="Piso" />
+        <PropertyEditor Id="Pension_hotel" PropertyName="Pension_hotel" />
+        <PropertyEditor Id="PaisDocumentoConyuge" PropertyName="PaisDocumentoConyuge" />
+        <PropertyEditor Id="Operacion" PropertyName="Operacion" />
+        <PropertyEditor Id="NumeroDePuerta" PropertyName="NumeroDePuerta" />
+        <PropertyEditor Id="NroPuertaEmpleo" PropertyName="NroPuertaEmpleo" />
+        <PropertyEditor Id="Nombre2Conyuge" PropertyName="Nombre2Conyuge" />
+        <PropertyEditor Id="Nombre2" PropertyName="Nombre2" />
+        <PropertyEditor Id="NombresConyuge" PropertyName="NombresConyuge" />
+        <PropertyEditor Id="Nombre1" PropertyName="Nombre1" />
+        <PropertyEditor Id="NacionalidadConyugue" PropertyName="NacionalidadConyugue" />
+        <PropertyEditor Id="Nacionalidad" PropertyName="Nacionalidad" />
+        <PropertyEditor Id="Nacimiento" PropertyName="Nacimiento" />
+        <PropertyEditor Id="n_banco_cheque" PropertyName="n_banco_cheque" />
+        <PropertyEditor Id="MotivoConsulta" PropertyName="MotivoConsulta" />
+        <PropertyEditor Id="MontoCuota" PropertyName="MontoCuota" />
+        <PropertyEditor Id="ManzanaEmpleo" PropertyName="ManzanaEmpleo" />
+        <PropertyEditor Id="Manzana" PropertyName="Manzana" />
+        <PropertyEditor Id="LoteEmpleo" PropertyName="LoteEmpleo" />
+        <PropertyEditor Id="Lote" PropertyName="Lote" />
+        <PropertyEditor Id="LocalidadBarrioEmpleo" PropertyName="LocalidadBarrioEmpleo" />
+        <PropertyEditor Id="Localidad_barrio" PropertyName="Localidad_barrio" />
+        <PropertyEditor Id="Localidad" PropertyName="Localidad" />
+        <PropertyEditor Id="KilometroEmpleo" PropertyName="KilometroEmpleo" />
+        <PropertyEditor Id="IngresoEmpleo" PropertyName="IngresoEmpleo" />
+        <PropertyEditor Id="IngresoBrutoMensual" PropertyName="IngresoBrutoMensual" />
+        <PropertyEditor Id="IdCiudadEmpleo" PropertyName="IdCiudadEmpleo" />
+        <PropertyEditor Id="Id_ciudad" PropertyName="Id_ciudad" />
+        <PropertyEditor Id="Grupo" PropertyName="Grupo" />
+        <PropertyEditor Id="EstadoCivilCEFISA" PropertyName="EstadoCivilCEFISA" />
+        <PropertyEditor Id="EstadoCivil" PropertyName="EstadoCivil" />
+        <PropertyEditor Id="Esquina2Empleo" PropertyName="Esquina2Empleo" />
+        <PropertyEditor Id="Esquina2" PropertyName="Esquina2" />
+        <PropertyEditor Id="Esquina1Empleo" PropertyName="Esquina1Empleo" />
+        <PropertyEditor Id="Esquina1" PropertyName="Esquina1" />
+        <PropertyEditor Id="Empresa" PropertyName="Empresa" />
+        <PropertyEditor Id="DocumentoConyuge" PropertyName="DocumentoConyuge" />
+        <PropertyEditor Id="dias_morosidad_interna" PropertyName="dias_morosidad_interna" />
+        <PropertyEditor Id="DestinoCredito" PropertyName="DestinoCredito" />
+        <PropertyEditor Id="DepartamentoEmpleo" PropertyName="DepartamentoEmpleo" />
+        <PropertyEditor Id="Departamento" PropertyName="Departamento" />
+        <PropertyEditor Id="ComplementoEmpleo" PropertyName="ComplementoEmpleo" />
+        <PropertyEditor Id="CodigoPostalEmpleo" PropertyName="CodigoPostalEmpleo" />
+        <PropertyEditor Id="Cod_postal" PropertyName="Cod_postal" />
+        <PropertyEditor Id="CiudadDistritoEmpleo" PropertyName="CiudadDistritoEmpleo" />
+        <PropertyEditor Id="Ciudad_distrito" PropertyName="Ciudad_distrito" />
+        <PropertyEditor Id="che_rech_inactivos" PropertyName="che_rech_inactivos" />
+        <PropertyEditor Id="che_rech_activos" PropertyName="che_rech_activos" />
+        <PropertyEditor Id="Cargo" PropertyName="Cargo" />
+        <PropertyEditor Id="cantidad_operaciones" PropertyName="cantidad_operaciones" />
+        <PropertyEditor Id="CalleEmpleo" PropertyName="CalleEmpleo" />
+        <PropertyEditor Id="Calle" PropertyName="Calle" />
+        <PropertyEditor Id="BlockEmpleo" PropertyName="BlockEmpleo" />
+        <PropertyEditor Id="Block" PropertyName="Block" />
+        <PropertyEditor Id="ApellidoCasadaConyuge" PropertyName="ApellidoCasadaConyuge" />
+        <PropertyEditor Id="ApellidoCasada" PropertyName="ApellidoCasada" />
+        <PropertyEditor Id="Apellido2Conyuge" PropertyName="Apellido2Conyuge" />
+        <PropertyEditor Id="Apellido2" PropertyName="Apellido2" />
+        <PropertyEditor Id="Apellido1Conyuge" PropertyName="Apellido1Conyuge" />
+        <PropertyEditor Id="Apellido1" PropertyName="Apellido1" />
+        <PropertyEditor Id="ApartamentoEmpleo" PropertyName="ApartamentoEmpleo" />
+        <PropertyEditor Id="Apartamento" PropertyName="Apartamento" />
+        <PropertyEditor Id="Antiguedad" PropertyName="Antiguedad" />
+        <PropertyEditor Id="Actividad" PropertyName="Actividad" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

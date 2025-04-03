@@ -1,0 +1,10 @@
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\bin\Debug\Prestamos.dll
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\bin\Debug\Prestamos.pdb
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\bin\Debug\Shared.dll
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\bin\Debug\Shared.pdb
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\bin\Debug\Shared.dll.config
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\obj\Debug\Prestamos.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\obj\Debug\Prestamos.csproj.CoreCompileInputs.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\obj\Debug\Prestamos.csproj.Up2Date
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\obj\Debug\Prestamos.dll
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Prestamos\obj\Debug\Prestamos.pdb

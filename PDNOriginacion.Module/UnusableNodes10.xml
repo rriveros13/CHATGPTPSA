@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Tarea_ListView_Mias">
+      <Columns Id="Columns">
+        <ColumnInfo Id="CompletadaEn" PropertyName="CompletadaEn" Width="70" Index="6" />
+        <ColumnInfo Id="CompletadaPor" PropertyName="CompletadaPor" Width="70" Index="5" />
+        <ColumnInfo Id="ReservadaEn" PropertyName="ReservadaEn" Width="70" Index="4" />
+        <ColumnInfo Id="ReservadaPor" PropertyName="ReservadaPor" Width="70" Index="3" />
+        <ColumnInfo Id="Estado" PropertyName="Estado" Width="70" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Tarea_ListView_Inbox">
+      <Columns Id="Columns">
+        <ColumnInfo Id="CompletadaEn" PropertyName="CompletadaEn" Width="70" Index="6" />
+        <ColumnInfo Id="CompletadaPor" PropertyName="CompletadaPor" Width="70" Index="5" />
+        <ColumnInfo Id="ReservadaEn" PropertyName="ReservadaEn" Width="70" Index="4" />
+        <ColumnInfo Id="ReservadaPor" PropertyName="ReservadaPor" Width="70" Index="3" />
+        <ColumnInfo Id="Estado" PropertyName="Estado" Width="70" Index="1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

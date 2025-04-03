@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="ClientePotenciales_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="CumpleRequisitosSol" PropertyName="CumpleRequisitosSol" Width="50" Index="10" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Rol_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="Users" Removed="True" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Usuario_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PermissionPolicyUser" RelativeSize="40.692640692640694">
+              <LayoutItem Id="ChangePasswordOnFirstLogon" RelativeSize="36.170212765957444" />
+              <LayoutItem Id="UserName" RelativeSize="27.659574468085108" />
+              <LayoutItem Id="IsActive" RelativeSize="36.170212765957444" />
+            </LayoutGroup>
+            <LayoutGroup Id="Usuario">
+              <LayoutGroup Id="Usuario_col1">
+                <LayoutItem Id="PasswordNuncaExpira" RelativeSize="36.734693877551024" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

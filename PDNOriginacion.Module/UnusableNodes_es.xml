@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="XpoState_DetailView" Caption="Estado" />
+    <ListView Id="XpoState_ListView" Caption="Estado" />
+    <ListView Id="XpoState_LookupListView" Caption="Estado" />
+    <ListView Id="XpoState_Transitions_ListView" Caption="Transición">
+      <Columns Id="Columns">
+        <ColumnInfo Id="TargetState" Caption="Estado Destino" />
+        <ColumnInfo Id="SaveAndCloseView" Caption="Guardar y Cerrar Vista" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoStateMachine_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoStateMachine_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoStateMachine_States_ListView" Caption="Estado" />
+    <DetailView Id="XpoTransition_DetailView" Caption="Transición">
+      <Items Id="Items">
+        <PropertyEditor Id="SaveAndCloseView" Caption="Guardar y Cerrar Vista" />
+        <PropertyEditor Id="TargetState" Caption="Estado Destino" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoTransition_ListView" Caption="Transición">
+      <Columns Id="Columns">
+        <ColumnInfo Id="SourceState" Caption="Estado Inicial" />
+        <ColumnInfo Id="TargetState" Caption="Estado Destino" />
+        <ColumnInfo Id="SaveAndCloseView" Caption="Guardar y Cerrar Vista" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoTransition_LookupListView" Caption="Transición" />
+  </Views>
+</Application>

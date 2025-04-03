@@ -1,0 +1,1434 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "EmptyLicensesLicx/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/EmptyLicensesLicx.targets": {}
+        }
+      },
+      "fasterflect/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        }
+      },
+      "MetadataExtractor/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "XmpCore": "6.1.10.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "XmpCore/6.1.10.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FileDataITTI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        }
+      },
+      "HyperLinkPropertyEditor.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        }
+      },
+      "IntegracionITGF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        }
+      },
+      "PDNOriginacion.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "FileDataITTI": "1.0.0",
+          "HyperLinkPropertyEditor.Web": "1.0.0",
+          "MetadataExtractor": "2.8.1",
+          "Prestamos": "1.0.0",
+          "Shared": "1.0.0",
+          "fasterflect": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        }
+      },
+      "PDNOriginacion.Module.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "FileDataITTI": "1.0.0",
+          "IntegracionITGF": "1.0.0",
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0",
+          "UserViewVariants": "1.0.0",
+          "UserViewVariants.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        }
+      },
+      "Prestamos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Prestamos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestamos.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "UserViewVariants/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        }
+      },
+      "UserViewVariants.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "UserViewVariants": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "EmptyLicensesLicx/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/EmptyLicensesLicx.targets": {}
+        }
+      },
+      "fasterflect/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        }
+      },
+      "MetadataExtractor/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "XmpCore": "6.1.10.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "XmpCore/6.1.10.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FileDataITTI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        }
+      },
+      "HyperLinkPropertyEditor.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        }
+      },
+      "IntegracionITGF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        }
+      },
+      "PDNOriginacion.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "FileDataITTI": "1.0.0",
+          "HyperLinkPropertyEditor.Web": "1.0.0",
+          "MetadataExtractor": "2.8.1",
+          "Prestamos": "1.0.0",
+          "Shared": "1.0.0",
+          "fasterflect": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        }
+      },
+      "PDNOriginacion.Module.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "FileDataITTI": "1.0.0",
+          "IntegracionITGF": "1.0.0",
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0",
+          "UserViewVariants": "1.0.0",
+          "UserViewVariants.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        }
+      },
+      "Prestamos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Prestamos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestamos.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "UserViewVariants/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        }
+      },
+      "UserViewVariants.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "UserViewVariants": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "EmptyLicensesLicx/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/EmptyLicensesLicx.targets": {}
+        }
+      },
+      "fasterflect/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        }
+      },
+      "MetadataExtractor/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "XmpCore": "6.1.10.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "XmpCore/6.1.10.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FileDataITTI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        }
+      },
+      "HyperLinkPropertyEditor.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        }
+      },
+      "IntegracionITGF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        }
+      },
+      "PDNOriginacion.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "FileDataITTI": "1.0.0",
+          "HyperLinkPropertyEditor.Web": "1.0.0",
+          "MetadataExtractor": "2.8.1",
+          "Prestamos": "1.0.0",
+          "Shared": "1.0.0",
+          "fasterflect": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        }
+      },
+      "PDNOriginacion.Module.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "FileDataITTI": "1.0.0",
+          "IntegracionITGF": "1.0.0",
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0",
+          "UserViewVariants": "1.0.0",
+          "UserViewVariants.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        }
+      },
+      "Prestamos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Prestamos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestamos.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "UserViewVariants/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        }
+      },
+      "UserViewVariants.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "UserViewVariants": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "EmptyLicensesLicx/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/EmptyLicensesLicx.targets": {}
+        }
+      },
+      "fasterflect/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        }
+      },
+      "MetadataExtractor/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "XmpCore": "6.1.10.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "XmpCore/6.1.10.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FileDataITTI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        }
+      },
+      "HyperLinkPropertyEditor.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        }
+      },
+      "IntegracionITGF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        }
+      },
+      "PDNOriginacion.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "FileDataITTI": "1.0.0",
+          "HyperLinkPropertyEditor.Web": "1.0.0",
+          "MetadataExtractor": "2.8.1",
+          "Prestamos": "1.0.0",
+          "Shared": "1.0.0",
+          "fasterflect": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        }
+      },
+      "PDNOriginacion.Module.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "FileDataITTI": "1.0.0",
+          "IntegracionITGF": "1.0.0",
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0",
+          "UserViewVariants": "1.0.0",
+          "UserViewVariants.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        }
+      },
+      "Prestamos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Prestamos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestamos.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "UserViewVariants/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        }
+      },
+      "UserViewVariants.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "UserViewVariants": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "EmptyLicensesLicx/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/EmptyLicensesLicx.targets": {}
+        }
+      },
+      "fasterflect/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Fasterflect.dll": {
+            "related": ".deps.json;.pdb;.XML"
+          }
+        }
+      },
+      "MetadataExtractor/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "XmpCore": "6.1.10.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MetadataExtractor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "XmpCore/6.1.10.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/XmpCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FileDataITTI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileDataITTI.dll": {}
+        }
+      },
+      "HyperLinkPropertyEditor.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HyperLinkPropertyEditor.Web.dll": {}
+        }
+      },
+      "IntegracionITGF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegracionITGF.dll": {}
+        }
+      },
+      "PDNOriginacion.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "FileDataITTI": "1.0.0",
+          "HyperLinkPropertyEditor.Web": "1.0.0",
+          "MetadataExtractor": "2.8.1",
+          "Prestamos": "1.0.0",
+          "Shared": "1.0.0",
+          "fasterflect": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.dll": {}
+        }
+      },
+      "PDNOriginacion.Module.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "FileDataITTI": "1.0.0",
+          "IntegracionITGF": "1.0.0",
+          "PDNOriginacion.Module": "1.0.0",
+          "Shared": "1.0.0",
+          "UserViewVariants": "1.0.0",
+          "UserViewVariants.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDNOriginacion.Module.Web.dll": {}
+        }
+      },
+      "Prestamos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Prestamos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestamos.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "UserViewVariants/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.dll": {}
+        }
+      },
+      "UserViewVariants.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "UserViewVariants": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserViewVariants.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/9.0.0": {
+      "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "type": "package",
+      "path": "automapper/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.9.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "EmptyLicensesLicx/2.0.0": {
+      "sha512": "5GQ2JogpZemsl6S+DGnT9sK6Ksyn1uujQ12c4KkyZXHxUGmMmaGeWRVaDhxBiRRPUiNDw+Y9x4jj8jLO3pIdBw==",
+      "type": "package",
+      "path": "emptylicenseslicx/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "build/EmptyLicensesLicx.targets",
+        "emptylicenseslicx.2.0.0.nupkg.sha512",
+        "emptylicenseslicx.nuspec"
+      ]
+    },
+    "fasterflect/3.0.0": {
+      "sha512": "nXucxx84mYH+fS9U92a4Ak/MfWP0H204c8D2I64zsOQynnihhavO6HOCUcpp8HfKZMn3aNn01iv1bINnxH7Kow==",
+      "type": "package",
+      "path": "fasterflect/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fasterflect.3.0.0.nupkg.sha512",
+        "fasterflect.nuspec",
+        "lib/netstandard20/Fasterflect.XML",
+        "lib/netstandard20/Fasterflect.deps.json",
+        "lib/netstandard20/Fasterflect.dll",
+        "lib/netstandard20/Fasterflect.pdb",
+        "lib/netstandard20/netstandard20/Fasterflect.XML",
+        "lib/netstandard20/netstandard20/Fasterflect.deps.json",
+        "lib/netstandard20/netstandard20/Fasterflect.dll",
+        "lib/netstandard20/netstandard20/Fasterflect.pdb"
+      ]
+    },
+    "MetadataExtractor/2.8.1": {
+      "sha512": "5VFc1urVZiIjB6zZ4nUkqDJntGPGPgPIrSqRtkAZ1AFDKHmxbRSHL3zZi9qMd8JYtOu/T8d5rZ7740jj/+dHOg==",
+      "type": "package",
+      "path": "metadataextractor/2.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net35/MetadataExtractor.dll",
+        "lib/net35/MetadataExtractor.xml",
+        "lib/net45/MetadataExtractor.dll",
+        "lib/net45/MetadataExtractor.xml",
+        "lib/netstandard1.3/MetadataExtractor.dll",
+        "lib/netstandard1.3/MetadataExtractor.xml",
+        "lib/netstandard2.0/MetadataExtractor.dll",
+        "lib/netstandard2.0/MetadataExtractor.xml",
+        "metadata-extractor-logo-128.png",
+        "metadataextractor.2.8.1.nupkg.sha512",
+        "metadataextractor.nuspec"
+      ]
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "sha512": "AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "type": "package",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.ILGeneration.xml",
+        "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "XmpCore/6.1.10.1": {
+      "sha512": "/Tp2/e39e7z8hLtS4TXt0FNNZHbf5yNFfHS0/59soXlgOzZlyRZivvzWpvujyaWkTWWgecp/1nHxkuc5vntn7A==",
+      "type": "package",
+      "path": "xmpcore/6.1.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/XmpCore.dll",
+        "lib/net35/XmpCore.xml",
+        "lib/netstandard1.0/XmpCore.dll",
+        "lib/netstandard1.0/XmpCore.xml",
+        "lib/netstandard2.0/XmpCore.dll",
+        "lib/netstandard2.0/XmpCore.xml",
+        "xmpcore.6.1.10.1.nupkg.sha512",
+        "xmpcore.nuspec"
+      ]
+    },
+    "FileDataITTI/1.0.0": {
+      "type": "project",
+      "path": "../FileDataITTI/FileDataITTI.csproj",
+      "msbuildProject": "../FileDataITTI/FileDataITTI.csproj"
+    },
+    "HyperLinkPropertyEditor.Web/1.0.0": {
+      "type": "project",
+      "path": "../HyperLinkPropertyEditor.Web/HyperLinkPropertyEditor.Web.csproj",
+      "msbuildProject": "../HyperLinkPropertyEditor.Web/HyperLinkPropertyEditor.Web.csproj"
+    },
+    "IntegracionITGF/1.0.0": {
+      "type": "project",
+      "path": "../IntegracionITGF/IntegracionITGF.csproj",
+      "msbuildProject": "../IntegracionITGF/IntegracionITGF.csproj"
+    },
+    "PDNOriginacion.Module/1.0.0": {
+      "type": "project",
+      "path": "../PDNOriginacion.Module/PDNOriginacion.Module.csproj",
+      "msbuildProject": "../PDNOriginacion.Module/PDNOriginacion.Module.csproj"
+    },
+    "PDNOriginacion.Module.Web/1.0.0": {
+      "type": "project",
+      "path": "../PDNOriginacion.Module.Web/PDNOriginacion.Module.Web.csproj",
+      "msbuildProject": "../PDNOriginacion.Module.Web/PDNOriginacion.Module.Web.csproj"
+    },
+    "Prestamos/1.0.0": {
+      "type": "project",
+      "path": "../Prestamos/Prestamos.csproj",
+      "msbuildProject": "../Prestamos/Prestamos.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    },
+    "UserViewVariants/1.0.0": {
+      "type": "project",
+      "path": "../UserViewVariants/UserViewVariants.csproj",
+      "msbuildProject": "../UserViewVariants/UserViewVariants.csproj"
+    },
+    "UserViewVariants.Web/1.0.0": {
+      "type": "project",
+      "path": "../UserViewVariants.Web/UserViewVariants.Web.csproj",
+      "msbuildProject": "../UserViewVariants.Web/UserViewVariants.Web.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "DevExpress.ExpressApp.CodeAnalysis >= 24.2.5",
+      "EmptyLicensesLicx >= 2.0.0",
+      "FileDataITTI >= 1.0.0",
+      "HyperLinkPropertyEditor.Web >= 1.0.0",
+      "PDNOriginacion.Module >= 1.0.0",
+      "PDNOriginacion.Module.Web >= 1.0.0",
+      "UserViewVariants >= 1.0.0",
+      "UserViewVariants.Web >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Web\\PDNOriginacion.Web.csproj",
+      "projectName": "PDNOriginacion.Web",
+      "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Web\\PDNOriginacion.Web.csproj",
+      "packagesPath": "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\default.LAPTOP-MOR577EP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj"
+            },
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj"
+            },
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module.Web\\PDNOriginacion.Module.Web.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module.Web\\PDNOriginacion.Module.Web.csproj"
+            },
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj"
+            },
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\UserViewVariants.Web\\UserViewVariants.Web.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\UserViewVariants.Web\\UserViewVariants.Web.csproj"
+            },
+            "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\UserViewVariants\\UserViewVariants.csproj": {
+              "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\UserViewVariants\\UserViewVariants.csproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[24.2.5, )"
+          },
+          "EmptyLicensesLicx": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package DevExpress.ExpressApp.CodeAnalysis. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-arm64",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

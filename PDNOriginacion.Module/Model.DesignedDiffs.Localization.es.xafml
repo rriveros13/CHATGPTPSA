@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="CloneObject" ShortCaption="Clonar ..." />
+      <Action Id="MergeAction" ShortCaption="Combinar" ToolTip="Combinar" />
+      <Action Id="ResumeWorkflowInstance" ShortCaption="Continuar" ToolTip="Continuar" />
+      <Action Id="ShowWorkflowInstances" ShortCaption="Mostrar Instancias del Workflow" ToolTip="Mostrar Instancias del Workflow" />
+      <Action Id="SuspendWorkflowInstance" ToolTip="Suspender" />
+      <Action Id="TerminateWorkflowInstance" ToolTip="Terminar" ShortCaption="Terminar" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditDataItemPersistent" Caption="Datos de Auditoría">
+      <OwnMembers>
+        <Member Name="ModifiedOn" Caption="Modificado El" />
+        <Member Name="OldValue" Caption="Valor Anterior" />
+        <Member Name="PropertyName" Caption="Nombre de Propiedad" />
+        <Member Name="UserName" Caption="Usuario" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference">
+      <OwnMembers>
+        <Member Name="AuditDataItems" Caption="Items de Datos de Auditoria" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ModelDifference">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Usuario" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser">
+      <OwnMembers>
+        <Member Name="ChangePasswordOnFirstLogon" Caption="Cambiar Contraseña Al Primer Inicio de Sesión" />
+        <Member Name="UserName" Caption="Usuario" />
+      </OwnMembers>
+    </Class>
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Solicitud">
+      <OwnMembers>
+        <Member Name="Monto" DisplayFormat="{0:n0}" EditMask="{0:n0}" />
+      </OwnMembers>
+    </Class>
+    <Class Name="PDNOriginacion.Module.BusinessObjects.SolicitudMobile">
+      <OwnMembers>
+        <Member Name="Monto" DisplayFormat="{0:n0}" EditMask="{0:n0}" />
+      </OwnMembers>
+    </Class>
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Usuario">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Usuario" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.Persistent.AuditTrail.AuditOperationType">
+        <LocalizationItem Name="AggregatedObjectChanged" Value="ObjetoAgregadoCambiado" />
+        <LocalizationItem Name="CollectionObjectChanged" Value="ObjectoDeColecciónCambiado" />
+        <LocalizationItem Name="CustomData" Value="DatosPersonalizados" />
+        <LocalizationItem Name="InitialValueAssigned" Value="ValorInicialAsignado" />
+        <LocalizationItem Name="ObjectChanged" Value="ObjetoCambiado" />
+        <LocalizationItem Name="ObjectCreated" Value="ObjetoCreado" />
+        <LocalizationItem Name="ObjectDeleted" Value="ObjetoEliminado" />
+        <LocalizationItem Name="RemovedFromCollection" Value="RemovidoDeColección" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Gestion">
+        <Items>
+          <Item Id="Tareas (Todas)" Caption="Tareas" />
+        </Items>
+      </Item>
+      <Item Id="Inicio">
+        <Items>
+          <Item Id="MisTareas" Caption="Mis Tareas" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Validation>
+    <Rules>
+      <RuleCriteria Id="PermissionPolicyUser_XPO_Prevent_delete_logged_in_user" CustomMessageTemplate="No se puede eliminar el usuario actual. Favor iniciar sesión con otro usuario y reintente." />
+    </Rules>
+  </Validation>
+  <Views>
+    <ListView Id="Cliente_Usuarios_ListView">
+      <Columns>
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ContextValidationResult_DetailView">
+      <Items>
+        <PropertyEditor Id="ContextValidationOutcome" Caption="Estado" />
+      </Items>
+    </DetailView>
+    <ListView Id="ContextValidationResult_DisplayableValidationResultItems_ListView">
+      <Columns>
+        <ColumnInfo Id="Outcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="ContextValidationResult_ListView">
+      <Columns>
+        <ColumnInfo Id="ContextValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="ContextValidationResult_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ContextValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DisplayableValidationResultItem_DetailView">
+      <Items>
+        <PropertyEditor Id="Outcome" Caption="Estado" />
+      </Items>
+    </DetailView>
+    <ListView Id="DisplayableValidationResultItem_ListView">
+      <Columns>
+        <ColumnInfo Id="Outcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="PermissionPolicyRole_Users_ListView">
+      <Columns>
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+      </Columns>
+    </ListView>
+    <DetailView Id="PermissionPolicyUser_DetailView">
+      <Items>
+        <PropertyEditor Id="IsActive" Caption="Activo" />
+      </Items>
+    </DetailView>
+    <ListView Id="PermissionPolicyUser_ListView">
+      <Columns>
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Person_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Person" Caption="Persona" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="RuleSetValidationResult_Results_ListView">
+      <Columns>
+        <ColumnInfo Id="ValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <DetailView Id="RuleSetValidationResultItem_DetailView">
+      <Items>
+        <PropertyEditor Id="ValidationOutcome" Caption="Estado" />
+      </Items>
+    </DetailView>
+    <ListView Id="RuleSetValidationResultItem_ListView">
+      <Columns>
+        <ColumnInfo Id="ValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="RuleSetValidationResultItemAggregate_AggregatedResults_ListView">
+      <Columns>
+        <ColumnInfo Id="ValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <DetailView Id="RuleSetValidationResultItemAggregate_DetailView">
+      <Items>
+        <PropertyEditor Id="ValidationOutcome" Caption="Estado" />
+      </Items>
+    </DetailView>
+    <ListView Id="RuleSetValidationResultItemAggregate_ListView">
+      <Columns>
+        <ColumnInfo Id="ValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="RuleSetValidationResultItemAggregate_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SecurityPolicy_DetailView">
+      <Items>
+        <PropertyEditor Id="AutenticacionADPorDefecto" Caption="Autenticacion AD por Defecto" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="SecurityPolicy" Caption="Local Policy" />
+              <LayoutGroup Id="Item2" Caption="Active Directory" />
+            </TabbedGroup>
+            <LayoutGroup Id="SecurityPolicy">
+              <LayoutGroup Id="SecurityPolicy_col2" Caption="SecurityPolicy_col2" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" Caption="Banned Passwords" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ValidationResults_DisplayableValidationResultItems_ListView">
+      <Columns>
+        <ColumnInfo Id="Outcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="ValidationResults_Results_ListView">
+      <Columns>
+        <ColumnInfo Id="ContextValidationOutcome" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoInstanceKey_DetailView">
+      <Items>
+        <PropertyEditor Id="InstanceId" Caption="Id de Instancia" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoInstanceKey_ListView">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoInstanceKey_LookupListView">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoRunningWorkflowInstanceInfo_DetailView">
+      <Items>
+        <PropertyEditor Id="State" Caption="Estado" />
+        <PropertyEditor Id="WorkflowUniqueId" Caption="Id Único del Workflow" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoRunningWorkflowInstanceInfo_ListView">
+      <Columns>
+        <ColumnInfo Id="WorkflowUniqueId" Caption="Id Único del Workflow" />
+        <ColumnInfo Id="State" Caption="Estado" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoRunningWorkflowInstanceInfo_TrackingRecords_ListView">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+        <ColumnInfo Id="ActivityId" Caption="Id de Actividad" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoStartWorkflowRequest_DetailView">
+      <Items>
+        <PropertyEditor Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoStartWorkflowRequest_ListView">
+      <Columns>
+        <ColumnInfo Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoStartWorkflowRequest_LookupListView">
+      <Columns>
+        <ColumnInfo Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoTrackingRecord_DetailView">
+      <Items>
+        <PropertyEditor Id="ActivityId" Caption="Id de Actividad" />
+        <PropertyEditor Id="InstanceId" Caption="Id de Instancia" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoTrackingRecord_ListView">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+        <ColumnInfo Id="ActivityId" Caption="Id de Actividad" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoTrackingRecord_LookupListView">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+        <ColumnInfo Id="ActivityId" Caption="Id de Actividad" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoUserActivityVersion_DetailView" Caption="Versión de Actividad de Usuario">
+      <Items>
+        <PropertyEditor Id="WorkflowUniqueId" Caption="Id Único del Workflow" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoUserActivityVersion_ListView" Caption="Versión de Actividad de Usuario">
+      <Columns>
+        <ColumnInfo Id="WorkflowUniqueId" Caption="Id Único del Workflow" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoUserActivityVersion_LookupListView" Caption="Versión de Actividad de Usuario">
+      <Columns>
+        <ColumnInfo Id="WorkflowUniqueId" Caption="Id Único del Workflow" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoWorkflowDefinition_DetailView" Caption="Definición de Workflow">
+      <Items>
+        <PropertyEditor Id="IsActive" Caption="Activo" />
+        <PropertyEditor Id="TargetObjectType" Caption="Tipo de Objeto" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoWorkflowDefinition_ListView" Caption="Definición de Workflow">
+      <Columns>
+        <ColumnInfo Id="TargetObjectType" Caption="Tipo de Objeto" />
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+        <ColumnInfo Id="AutoStartWhenObjectIsCreated" Caption="Auto Iniciar Cuando Objeto es Creado" />
+        <ColumnInfo Id="AutoStartWhenObjectFitsCriteria" Caption="Auto Iniciar Cuando el Objeto Cumple Criterio" />
+        <ColumnInfo Id="AllowMultipleRuns" Caption="Permitir Múltiples Corridas" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoWorkflowDefinition_LookupListView" Caption="Definición de Workflow" />
+    <DetailView Id="XpoWorkflowInstance_DetailView" Caption="Instancia de Workflow">
+      <Items>
+        <PropertyEditor Id="ExpirationDateTime" Caption="Fecha Hora de Expiración" />
+        <PropertyEditor Id="InstanceId" Caption="Id de Instancia" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoWorkflowInstance_ListView" Caption="Instancia de Workflow">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+        <ColumnInfo Id="ExpirationDateTime" Caption="Fecha Hora de Expiración" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoWorkflowInstance_LookupListView" Caption="Instancia de Workflow">
+      <Columns>
+        <ColumnInfo Id="InstanceId" Caption="Id de Instancia" />
+        <ColumnInfo Id="ExpirationDateTime" Caption="Fecha Hora de Expiración" />
+      </Columns>
+    </ListView>
+    <DetailView Id="XpoWorkflowInstanceControlCommandRequest_DetailView">
+      <Items>
+        <PropertyEditor Id="Command" Caption="Comando" />
+        <PropertyEditor Id="CreatedOn" Caption="Creada En" />
+        <PropertyEditor Id="Result" Caption="Resultado" />
+      </Items>
+    </DetailView>
+    <ListView Id="XpoWorkflowInstanceControlCommandRequest_ListView">
+      <Columns>
+        <ColumnInfo Id="Result" Caption="Resultado" />
+        <ColumnInfo Id="Command" Caption="Comando" />
+        <ColumnInfo Id="CreatedOn" Caption="Creada En" />
+      </Columns>
+    </ListView>
+    <ListView Id="XpoWorkflowInstanceControlCommandRequest_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Result" Caption="Resultado" />
+        <ColumnInfo Id="Command" Caption="Comando" />
+        <ColumnInfo Id="CreatedOn" Caption="Creada En" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

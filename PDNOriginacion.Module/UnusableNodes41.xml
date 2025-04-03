@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="PersonaTelefono_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PersonaTelefono" RelativeSize="100">
+              <LayoutGroup Id="PersonaTelefono_col1" RelativeSize="49.944629014396455">
+                <LayoutItem Id="Prefijo" Index="0" RelativeSize="5.0561797752808992" />
+                <LayoutItem Id="Numero" Index="1" RelativeSize="3.6516853932584268" />
+                <LayoutItem Id="TelefonoCompleto" ViewItem="TelefonoCompleto" Index="2" RelativeSize="3.6516853932584268" />
+                <LayoutItem Id="Preferido" ViewItem="Preferido" Index="3" RelativeSize="87.640449438202253" Removed="True" />
+                <LayoutItem Id="ParticularoLaboral" Index="4" RelativeSize="83.988764044943821" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="PersonaTelefono_col2" RelativeSize="50.055370985603545">
+                <LayoutItem Id="Tipo" RelativeSize="5.0561797752808992" Index="0" />
+                <LayoutItem Id="ParticularoLaboral" ViewItem="ParticularoLaboral" Index="1" RelativeSize="3.6516853932584268" />
+                <LayoutItem Id="Whatsapp" RelativeSize="91.292134831460672" Index="2" />
+                <LayoutItem Id="TelefonoCompleto" RelativeSize="5.0561797752808992" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.PersonaTelefono" ImageName="BO_Phone" />
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="PersonaTelefono_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

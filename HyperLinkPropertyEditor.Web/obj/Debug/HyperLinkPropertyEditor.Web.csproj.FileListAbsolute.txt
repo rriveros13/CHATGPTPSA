@@ -1,0 +1,5 @@
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\HyperLinkPropertyEditor.Web\obj\Debug\HyperLinkPropertyEditor.Web.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\HyperLinkPropertyEditor.Web\obj\Debug\HyperLinkPropertyEditor.Web.HyperLinkPropertyEditorAspNetModule.resources
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\HyperLinkPropertyEditor.Web\obj\Debug\HyperLinkPropertyEditor.Web.Properties.Resources.resources
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\HyperLinkPropertyEditor.Web\obj\Debug\HyperLinkPropertyEditor.Web.csproj.GenerateResource.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\HyperLinkPropertyEditor.Web\obj\Debug\HyperLinkPropertyEditor.Web.csproj.CoreCompileInputs.cache

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Presupuesto">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Gastos" DisplayFormat="{0:N0}" EditMask="N0" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+<<<<<<< HEAD
+  <Views Id="Views">
+    <DetailView Id="SeguimientoProgramado_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SeguimientoProgramado">
+              <LayoutGroup Id="SeguimientoProgramado_col1">
+                <LayoutItem Id="Seguimiento" Index="3" RelativeSize="17.333333333333332" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+=======
+>>>>>>> fb6a6020a4088c5166b1692dcb0afd7ca5d1f5a5
+</Application>

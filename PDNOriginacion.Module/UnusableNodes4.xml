@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Solicitud_ListView_MisSol">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Instancia" PropertyName="Instancia" Width="70" Index="9" />
+        <ColumnInfo Id="Estado" PropertyName="Estado" Width="70" Index="7" />
+      </Columns>
+    </ListView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="MAESTROS">
+        <Items Id="Items">
+          <Item Id="TipoProductoEntidad_ListView" ViewId="TipoProductoEntidad_ListView" />
+          <Item Id="TipoDeudorEntidad_ListView" ViewId="TipoDeudorEntidad_ListView" />
+          <Item Id="TipoClienteEntidad_ListView" ViewId="TipoClienteEntidad_ListView" />
+          <Item Id="SegmentoEntidad_ListView" ViewId="SegmentoEntidad_ListView" />
+          <Item Id="PropietarioInquilino_ListView" ViewId="PropietarioInquilino_ListView" />
+          <Item Id="ProfesionEntidad_ListView" ViewId="ProfesionEntidad_ListView" />
+          <Item Id="Operacion_ListView" ViewId="Operacion_ListView" />
+          <Item Id="Motivo_ListView" ViewId="Motivo_ListView" />
+          <Item Id="LocalidadEntidad_ListView" ViewId="LocalidadEntidad_ListView" />
+          <Item Id="GrupoEntidad_ListView" ViewId="GrupoEntidad_ListView" />
+          <Item Id="Genero_ListView" ViewId="Genero_ListView" />
+          <Item Id="EstadoCivilEntidad_ListView" ViewId="EstadoCivilEntidad_ListView" />
+          <Item Id="EstadoCivil_ListView" ViewId="EstadoCivil_ListView" />
+          <Item Id="DestinoCreditoEntidad_ListView" ViewId="DestinoCreditoEntidad_ListView" />
+          <Item Id="Datos_ListView" ViewId="Datos_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="Datos_ListView" Removed="True" />
+          <Item Id="DestinoCreditoEntidad_ListView" Removed="True" />
+          <Item Id="EstadoCivil_ListView" Removed="True" />
+          <Item Id="EstadoCivilEntidad_ListView" Removed="True" />
+          <Item Id="Genero_ListView" Removed="True" />
+          <Item Id="GrupoEntidad_ListView" Removed="True" />
+          <Item Id="LocalidadEntidad_ListView" Removed="True" />
+          <Item Id="Motivo_ListView" Removed="True" />
+          <Item Id="Operacion_ListView" Removed="True" />
+          <Item Id="ProfesionEntidad_ListView" Removed="True" />
+          <Item Id="PropietarioInquilino_ListView" Removed="True" />
+          <Item Id="SegmentoEntidad_ListView" Removed="True" />
+          <Item Id="TipoClienteEntidad_ListView" Removed="True" />
+          <Item Id="TipoDeudorEntidad_ListView" Removed="True" />
+          <Item Id="TipoProductoEntidad_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

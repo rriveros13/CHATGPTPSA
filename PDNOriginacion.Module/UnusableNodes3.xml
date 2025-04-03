@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Consulta_DetailView_Mobile">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="Notas">
+              <LayoutItem Id="Notas" ViewItem="Notas" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Consulta">
+              <LayoutGroup Id="Consulta_col1">
+                <LayoutItem Id="Nacionalidad" ViewItem="Nacionalidad" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Consulta_ListView_Mobile" MasterDetailView="Consulta_DetailView_Mobile" DetailViewID="Consulta_DetailView_Mobile" />
+  </Views>
+</Application>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Tarea_ListView_Mias">
+      <Columns Id="Columns">
+        <ColumnInfo Id="RemindIn" PropertyName="RemindIn" Width="70" Index="12" />
+      </Columns>
+    </ListView>
+    <ListView Id="Tarea_ListView_Inbox">
+      <Columns Id="Columns">
+        <ColumnInfo Id="RemindIn" PropertyName="RemindIn" Width="70" Index="12" />
+      </Columns>
+    </ListView>
+    <ListView Id="Solicitud_Tareas_ListView_finalizadas">
+      <Columns Id="Columns">
+        <ColumnInfo Id="RemindIn" PropertyName="RemindIn" Width="82" Index="8" />
+      </Columns>
+    </ListView>
+    <ListView Id="Solicitud_Tareas_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="RemindIn" Width="82" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

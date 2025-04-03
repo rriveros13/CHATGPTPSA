@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\IntegracionITGF\\IntegracionITGF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj",
+        "projectName": "FileDataITTI",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj",
+        "packagesPath": "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\default.LAPTOP-MOR577EP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
+            "EmptyLicensesLicx": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj",
+        "projectName": "HyperLinkPropertyEditor.Web",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj",
+        "packagesPath": "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\default.LAPTOP-MOR577EP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[24.2.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\IntegracionITGF\\IntegracionITGF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\IntegracionITGF\\IntegracionITGF.csproj",
+        "projectName": "IntegracionITGF",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\IntegracionITGF\\IntegracionITGF.csproj",
+        "packagesPath": "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\IntegracionITGF\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\default.LAPTOP-MOR577EP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj"
+              },
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[24.2.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj",
+        "projectName": "PDNOriginacion.Module",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\PDNOriginacion.Module.csproj",
+        "packagesPath": "C:\\Users\\default.LAPTOP-MOR577EP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\PDNOriginacion.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\default.LAPTOP-MOR577EP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\FileDataITTI\\FileDataITTI.csproj"
+              },
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\HyperLinkPropertyEditor.Web\\HyperLinkPropertyEditor.Web.csproj"
+              },
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Prestamos\\Prestamos.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Prestamos\\Prestamos.csproj"
+              },
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
+            "EmptyLicensesLicx": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MetadataExtractor": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "fasterflect": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Prestamos\\Prestamos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Prestamos\\Prestamos.csproj",
+        "projectName": "Prestamos",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Prestamos\\Prestamos.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\Shared\\Shared.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

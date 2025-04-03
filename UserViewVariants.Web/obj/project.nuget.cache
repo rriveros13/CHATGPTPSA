@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q7eKHXnCcds=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\default.LAPTOP-MOR577EP\\OneDrive\\Escritorio\\chatgptrepót\\CHATGPTPSA\\pca\\UserViewVariants.Web\\UserViewVariants.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package DevExpress.ExpressApp.CodeAnalysis. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-arm64",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

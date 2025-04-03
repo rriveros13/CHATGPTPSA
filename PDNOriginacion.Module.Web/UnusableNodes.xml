@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="70c31bc9-bcc1-43f5-a81c-ba14885ed6f3" ImageName="BO_FileAttachment" />
+    </Actions>
+  </ActionDesign>
+</Application>

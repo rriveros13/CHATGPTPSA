@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Seguimiento">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Latitude" Caption="Latitud" />
+        <Member Name="Longitude" Caption="Longitud" />
+        <Member Name="Title" Caption="Titulo" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Person" Caption="Persona" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

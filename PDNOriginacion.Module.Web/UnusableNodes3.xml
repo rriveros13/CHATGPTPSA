@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1">
+                  <LayoutItem Id="Contacto" RelativeSize="8.5427135678391952" />
+                  <LayoutItem Id="Nombres" RelativeSize="2.512562814070352" />
+                  <LayoutGroup Id="Auto1fddfc7e-94fb-47bd-a88f-ae7153f629a7" RelativeSize="10.552763819095478">
+                    <LayoutItem Id="SegundoApellido" RelativeSize="95.955056179775283" />
+                    <LayoutItem Id="Apellidos" RelativeSize="4.0449438202247192" />
+                  </LayoutGroup>
+                  <LayoutItem Id="InteresadoPrestamo" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="PoseeInmueble" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="ProcesoCreditoExplicado" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="MontoSolicitado" RelativeSize="6.5326633165829149" />
+                  <LayoutItem Id="MotivoSolicitud" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="TieneComoDemostrarIngresos" RelativeSize="9.2964824120603016" />
+                </LayoutGroup>
+                <LayoutGroup Id="Persona_col2">
+                  <LayoutItem Id="FechaAlta" RelativeSize="9.0452261306532655" />
+                  <LayoutItem Id="FormaDeSeguiminetoPreferida" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="HorarioSeguimiento" RelativeSize="6.5326633165829149" />
+                  <LayoutItem Id="OpeMoraDemandaInhi" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="TipoDocumento" RelativeSize="6.78391959798995" />
+                  <LayoutItem Id="PaisDocumento" RelativeSize="6.78391959798995" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="CuentaCatastral" ViewItem="CuentaCatastral" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

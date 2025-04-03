@@ -1,0 +1,5 @@
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\FileDataITTI\obj\Debug\FileDataITTI.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\FileDataITTI\obj\Debug\ITTI.FileDataITTIModule.resources
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\FileDataITTI\obj\Debug\FileDataITTI.csproj.GenerateResource.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\FileDataITTI\obj\Debug\FileDataITTI.dll.licenses
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\FileDataITTI\obj\Debug\FileDataITTI.csproj.CoreCompileInputs.cache

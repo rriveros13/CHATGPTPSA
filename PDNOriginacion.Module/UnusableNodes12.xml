@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Solicitud_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="tareas_finalizadas" View="solicitud_tareas_finalizadas" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

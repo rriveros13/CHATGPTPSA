@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col1">
+                <LayoutItem Id="Prop_inquilino" Index="19" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="Direccion" Index="20" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="Telefono" Index="21" RelativeSize="5.882352941176471" />
+              </LayoutGroup>
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="TipoDocumentoConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="PaisDocumentoConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="DocumentoConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="NacionalidadConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="ApellidosConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="ApellidoCasadaConyuge" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="NombresConyuge" RelativeSize="4.4117647058823533" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Solicitud_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ApellidoCasadaConyuge" Index="-1" />
+        <ColumnInfo Id="NacionalidadConyuge" Index="-1" />
+        <ColumnInfo Id="PaisDocumentoConyuge" Index="-1" />
+        <ColumnInfo Id="TipoDocumentoConyuge" Index="-1" />
+        <ColumnInfo Id="DocumentoConyuge" Index="10" />
+        <ColumnInfo Id="ApellidosConyuge" Index="14" />
+        <ColumnInfo Id="NombresConyuge" Index="15" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

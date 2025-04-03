@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="MAESTROS">
+        <Items Id="Items">
+          <Item Id="ActividadEntidad_ListView" ViewId="ActividadEntidad_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="ActividadEntidad_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="Edad" RelativeSize="17.391304347826086" />
+                <LayoutItem Id="Antiguedad" RelativeSize="13.043478260869565" />
+                <LayoutItem Id="Aprobada" RelativeSize="13.043478260869565" Index="2" Removed="True" />
+                <LayoutItem Id="CreadaPor" RelativeSize="69.565217391304344" Index="2" />
+                <LayoutItem Id="ReferenciasVerificadas" RelativeSize="13.043478260869565" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,6 @@
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.Controllers.AccionesController.resources
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.PDNOriginacionModule.resources
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.csproj.GenerateResource.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.dll.licenses
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\PDNOriginacion.Module\obj\Debug\PDNOriginacion.Module.csproj.CoreCompileInputs.cache

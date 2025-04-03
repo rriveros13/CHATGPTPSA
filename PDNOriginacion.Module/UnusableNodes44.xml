@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Presupuesto">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="TasaMinimaAutorizada" DisplayFormat="{0:N2}" EditMask="N2" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="Presupuesto_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Presupuesto">
+              <LayoutGroup Id="Presupuesto_col1">
+                <LayoutItem Id="IdPresupuesto" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="TotalGastos" RelativeSize="20.454545454545453" />
+              </LayoutGroup>
+              <LayoutGroup Id="Presupuesto_col2">
+                <LayoutItem Id="TasaMinimaAutorizada" RelativeSize="14.772727272727273" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

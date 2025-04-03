@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="DevExpress.Persistent.BaseImpl.User">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="ChangePasswordOnFirstLogon" Caption="Cambiar Contraseña Al Primer Inicio de Sesión" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <ListView Id="Role_Users_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+      </Columns>
+    </ListView>
+    <DetailView Id="User_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="IsActive" Caption="Activo" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Person" Caption="Persona" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="User_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IsActive" Caption="Activo" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

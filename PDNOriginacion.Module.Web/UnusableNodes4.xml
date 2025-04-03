@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1">
+                  <LayoutItem Id="FechaAlta" Index="9" RelativeSize="6.666666666666667" />
+                  <LayoutItem Id="FormaDeSeguiminetoPreferida" Index="10" RelativeSize="6.9230769230769234" />
+                  <LayoutItem Id="HorarioSeguimiento" Index="11" RelativeSize="22.820512820512821" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="CuentaCatastral" ViewItem="CuentaCatastral" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="ProgramarSeguimiento" ImageName="BO_Appointment" PaintStyle="Image" />
+    </Actions>
+  </ActionDesign>
+</Application>

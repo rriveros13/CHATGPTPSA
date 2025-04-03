@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="ClientePotenciales_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Nombres" PropertyName="Nombres" Width="70" Index="23" />
+        <ColumnInfo Id="Apellidos" PropertyName="Apellidos" Width="70" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1">
+                  <LayoutItem Id="Apellidos" ViewItem="Apellidos" />
+                  <LayoutItem Id="Nombres" ViewItem="Nombres" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

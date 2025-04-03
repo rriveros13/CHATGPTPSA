@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="SeguimientoProgramado_ListView_Mis">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Medio" PropertyName="Medio" Width="70" Index="3" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

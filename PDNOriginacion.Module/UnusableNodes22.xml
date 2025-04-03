@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Solicitud_ListView_MisSol">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IDSolicitud" PropertyName="IDSolicitud" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" />
+      </Columns>
+    </ListView>
+    <ListView Id="Solicitud_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Antiguedad" Index="-1" />
+        <ColumnInfo Id="Cargo" Index="-1" />
+        <ColumnInfo Id="Edad" Index="-1" />
+        <ColumnInfo Id="Empresa" Index="-1" />
+        <ColumnInfo Id="EstadoCivil" Index="-1" />
+        <ColumnInfo Id="FechaIngresoEmpleo" Index="-1" />
+        <ColumnInfo Id="Nacimiento" Index="-1" />
+        <ColumnInfo Id="PaisDocumento" Index="-1" />
+        <ColumnInfo Id="Profesion" Index="-1" />
+        <ColumnInfo Id="Prop_inquilino" Index="-1" />
+        <ColumnInfo Id="ReferenciasVerificadas" Index="-1" />
+        <ColumnInfo Id="Sexo" Index="-1" />
+        <ColumnInfo Id="Telefono" Index="-1" />
+        <ColumnInfo Id="TelefonoEmpleo" Index="-1" />
+        <ColumnInfo Id="TipoDocumento" Index="-1" />
+        <ColumnInfo Id="IDSolicitud" Width="101" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Persona" Index="8" />
+        <ColumnInfo Id="Direccion" Index="12" />
+        <ColumnInfo Id="DireccionEmpleo" Index="13" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col1">
+                <LayoutItem Id="Persona" RelativeSize="4.4117647058823533" Index="6" />
+                <LayoutItem Id="Edad" RelativeSize="4.4117647058823533" Index="11" />
+                <LayoutItem Id="Antiguedad" RelativeSize="4.4117647058823533" Index="12" />
+                <LayoutItem Id="ReferenciasVerificadas" RelativeSize="4.4117647058823533" Index="13" />
+                <LayoutItem Id="Nacimiento" RelativeSize="4.4117647058823533" Index="16" />
+                <LayoutItem Id="Sexo" RelativeSize="4.4117647058823533" Index="17" />
+                <LayoutItem Id="EstadoCivil" RelativeSize="4.4117647058823533" Index="18" />
+                <LayoutItem Id="PaisDocumento" ViewItem="PaisDocumento" />
+                <LayoutItem Id="IDSolicitud" ViewItem="IDSolicitud" />
+                <LayoutItem Id="TipoDocumento" ViewItem="TipoDocumento" />
+              </LayoutGroup>
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="Cargo" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="Profesion" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="DireccionEmpleo" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="FechaIngresoEmpleo" RelativeSize="4.4117647058823533" />
+                <LayoutItem Id="TelefonoEmpleo" RelativeSize="4.4117647058823533" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

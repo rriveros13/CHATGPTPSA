@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Seguimiento_Items_ListView" AllowEdit="True" AllowDelete="False" AllowLink="False" AllowNew="False" FreezeColumnIndices="True" DataAccessMode="Server">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Seguimiento" Index="-1" />
+        <ColumnInfo Id="Oid" Index="-1" />
+        <ColumnInfo Id="Item.Orden" PropertyName="Item.Orden" Index="0" Width="46" />
+        <ColumnInfo Id="Item" Index="1" Width="48" />
+        <ColumnInfo Id="Respuesta" Index="2" />
+        <ColumnInfo Id="Comentarios" Index="3" Width="248" />
+      </Columns>
+      <Sorting Id="Sorting">
+        <SortProperty Id="ItemOrdenAsc" PropertyName="Item.Orden" />
+      </Sorting>
+    </ListView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Persona">
+              <LayoutGroup Id="Persona_col1">
+                <LayoutItem Id="FechaNacimiento" RelativeSize="6.770833333333333" Index="11" />
+                <LayoutItem Id="FormaDeSeguimientoPreferida" RelativeSize="6.770833333333333" Index="12" />
+                <LayoutItem Id="Genero" RelativeSize="9.375" Index="13" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Items_Group" Direction="Vertical" RelativeSize="35.742444152431013">
+            <LayoutItem Id="Items" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Seguimiento">
+              <LayoutGroup Id="Seguimiento_col1">
+                <LayoutItem Id="SeguimientoInicial" Index="2" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="Cuestionario" Index="4" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="MedioIngreso" Index="5" RelativeSize="20.454545454545453" />
+              </LayoutGroup>
+              <LayoutGroup Id="Seguimiento_col2">
+                <LayoutItem Id="MotivoSeguimiento" RelativeSize="20.454545454545453" />
+                <LayoutItem Id="Solicitud" RelativeSize="14.772727272727273" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.SeguimientoItem" ImageName="BO_Security_Permission_Member" />
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="SeguimientoItem_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

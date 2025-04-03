@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Seguimiento">
+              <LayoutGroup Id="Seguimiento_col1">
+                <LayoutItem Id="Documento" RelativeSize="9.2857142857142865" Index="6" />
+                <LayoutItem Id="Apellidos" RelativeSize="9.2857142857142865" Index="8" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

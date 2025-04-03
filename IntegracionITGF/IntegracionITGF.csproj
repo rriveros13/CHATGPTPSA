@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFCE2A24-7BA6-42DF-BB5A-44C42946384D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntegracionITGF</RootNamespace>
+    <AssemblyName>IntegracionITGF</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\Cargos.cs" />
+    <Compile Include="DataAccess\Cuotas.cs" />
+    <Compile Include="DataAccess\Direcciones.cs" />
+    <Compile Include="DataAccess\Garantias.cs" />
+    <Compile Include="DataAccess\InformacionesLaborales.cs" />
+    <Compile Include="DataAccess\IngresosYEgresos.cs" />
+    <Compile Include="DataAccess\ITGFAccess.cs" />
+    <Compile Include="DataAccess\ReferenciasComerciales.cs" />
+    <Compile Include="DataAccess\ReferenciasPersonales.cs" />
+    <Compile Include="DataAccess\RefernciasLaborales.cs" />
+    <Compile Include="DataAccess\SolGarantias.cs" />
+    <Compile Include="DataAccess\Solicitudes.cs" />
+    <Compile Include="DataAccess\Telefonos.cs" />
+    <Compile Include="DataAccess\Vinculos.cs" />
+    <Compile Include="ITGFDataModelCode\ConnectionHelper.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_DIRECCIONES.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_DIRECCIONES.Designer.cs">
+      <DependentUpon>INT_BA_DIRECCIONES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_BA_PERSONAS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_PERSONAS.Designer.cs">
+      <DependentUpon>INT_BA_PERSONAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\Personas.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_TELEFONOS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_TELEFONOS.Designer.cs">
+      <DependentUpon>INT_BA_TELEFONOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_BA_VINCULOS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_BA_VINCULOS.designer.cs">
+      <DependentUpon>INT_BA_VINCULOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_CR_INF_LABORALES.cs" />
+    <Compile Include="ITGFDataModelCode\INT_CR_INF_LABORALES.Designer.cs">
+      <DependentUpon>INT_CR_INF_LABORALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_CR_PER_ING_EGRESOS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_CR_PER_ING_EGRESOS.Designer.cs">
+      <DependentUpon>INT_CR_PER_ING_EGRESOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_CR_REF_COMERCIALES.cs" />
+    <Compile Include="ITGFDataModelCode\INT_CR_REF_COMERCIALES.Designer.cs" />
+    <Compile Include="ITGFDataModelCode\INT_CR_REF_PERSONALES.cs" />
+    <Compile Include="ITGFDataModelCode\INT_CR_REF_PERSONALES.Designer.cs">
+      <DependentUpon>INT_CR_REF_PERSONALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_PR_GARANTIAS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_PR_GARANTIAS.Designer.cs">
+      <DependentUpon>INT_PR_GARANTIAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_PR_SOLICITUDES.cs" />
+    <Compile Include="ITGFDataModelCode\INT_PR_SOLICITUDES.Designer.cs">
+      <DependentUpon>INT_PR_SOLICITUDES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_CARGOS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_CARGOS.Designer.cs">
+      <DependentUpon>INT_PR_SOL_CARGOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_CUOTAS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_CUOTAS.Designer.cs">
+      <DependentUpon>INT_PR_SOL_CUOTAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_GARANTIAS.cs" />
+    <Compile Include="ITGFDataModelCode\INT_PR_SOL_GARANTIAS.Designer.cs">
+      <DependentUpon>INT_PR_SOL_GARANTIAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ITGFDataModel.xpo" />
+    <None Include="ITGFDataModel.xpo.diagram">
+      <DependentUpon>ITGFDataModel.xpo</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDNOriginacion.Module\PDNOriginacion.Module.csproj">
+      <Project>{5F15837D-D1E5-44DC-92F0-4F2EBE9C3F8D}</Project>
+      <Name>PDNOriginacion.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{7eb3bf25-7a8c-45f7-b9c1-37299f50ea4e}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

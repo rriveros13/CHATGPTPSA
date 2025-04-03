@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.TipoTarea" ImageName="BO_Task" />
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Transicion" ImageName="BO_StateMachine" />
+    <Class Name="PDNOriginacion.Module.BusinessObjects.WorkFlow" ImageName="BO_WorkflowDefinition" />
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="@f3e1fdcc-cfa2-4286-9980-9cb345bbff5f">
+        <Items Id="Items">
+          <Item Id="WorkFlow_ListView" ViewId="WorkFlow_ListView" />
+          <Item Id="TipoTarea_ListView" ViewId="TipoTarea_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="TipoTarea_ListView" Removed="True" />
+          <Item Id="Transicion_ListView" Removed="True" />
+          <Item Id="WorkFlow_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="MAESTROS">
+        <Items Id="Items">
+          <Item Id="TipoProductoEntidad_ListView" ViewId="TipoProductoEntidad_ListView" />
+          <Item Id="TipoDeudorEntidad_ListView" ViewId="TipoDeudorEntidad_ListView" />
+          <Item Id="TipoClienteEntidad_ListView" ViewId="TipoClienteEntidad_ListView" />
+          <Item Id="SegmentoEntidad_ListView" ViewId="SegmentoEntidad_ListView" />
+          <Item Id="PropietarioInquilino_ListView" ViewId="PropietarioInquilino_ListView" />
+          <Item Id="ProfesionEntidad_ListView" ViewId="ProfesionEntidad_ListView" />
+          <Item Id="Operacion_ListView" ViewId="Operacion_ListView" />
+          <Item Id="Motivo_ListView" ViewId="Motivo_ListView" />
+          <Item Id="LocalidadEntidad_ListView" ViewId="LocalidadEntidad_ListView" />
+          <Item Id="GrupoEntidad_ListView" ViewId="GrupoEntidad_ListView" />
+          <Item Id="Genero_ListView" ViewId="Genero_ListView" />
+          <Item Id="EstadoCivilEntidad_ListView" ViewId="EstadoCivilEntidad_ListView" />
+          <Item Id="EstadoCivil_ListView" ViewId="EstadoCivil_ListView" />
+          <Item Id="DestinoCreditoEntidad_ListView" ViewId="DestinoCreditoEntidad_ListView" />
+          <Item Id="Datos_ListView" ViewId="Datos_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

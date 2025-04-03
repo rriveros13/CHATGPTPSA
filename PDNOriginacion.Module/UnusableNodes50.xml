@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SeguimientoProgramado_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Persona" PropertyName="Persona" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="25.361366622864651">
+            <LayoutGroup Id="SeguimientoProgramado" RelativeSize="100">
+              <LayoutGroup Id="SeguimientoProgramado_col1" RelativeSize="49.934123847167328">
+                <LayoutItem Id="Persona" ViewItem="Persona" Index="0" RelativeSize="24" />
+                <LayoutItem Id="Fecha" Index="1" RelativeSize="17.333333333333332" />
+                <LayoutItem Id="CreadoPor" Index="4" RelativeSize="24" />
+              </LayoutGroup>
+              <LayoutGroup Id="SeguimientoProgramado_col2" RelativeSize="50.065876152832672">
+                <LayoutItem Id="Para" RelativeSize="17.333333333333332" />
+                <LayoutItem Id="Solicitud" RelativeSize="58.666666666666664" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="74.638633377135349">
+            <LayoutItem Id="Comentarios" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SeguimientoProgramado_ListView_Mis" ClassName="PDNOriginacion.Module.BusinessObjects.SeguimientoProgramado" Criteria="Para=CurrentUserId() and IsNull(Seguimiento)">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Comentarios" PropertyName="Comentarios" Index="-1" Width="70" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Index="-1" Width="70" />
+        <ColumnInfo Id="Fecha" PropertyName="Fecha" Index="0" Width="400" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="Seguimiento" PropertyName="Seguimiento" Index="1" Width="70" />
+        <ColumnInfo Id="CreadoPor" PropertyName="CreadoPor" Index="2" Width="70" />
+        <ColumnInfo Id="Motivo" PropertyName="Motivo" Index="3" Width="70" />
+        <ColumnInfo Id="Para" PropertyName="Para" Index="5" Width="70" />
+        <ColumnInfo Id="Persona" PropertyName="Persona" Index="6" Width="70" />
+        <ColumnInfo Id="Solicitud" PropertyName="Solicitud" Index="7" Width="70" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col1">
+                  <LayoutItem Id="Nombres" ViewItem="Nombres" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="Agenda" Index="3" RelativeSize="100">
+              <LayoutItem Id="Agenda" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SolicitudPersona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="SolicitudPersona">
+                <LayoutGroup Id="SolicitudPersona_col1">
+                  <LayoutItem Id="ResultadoMotor" ViewItem="ResultadoMotor" />
+                  <LayoutItem Id="ProcesarMotor" ViewItem="ProcesarMotor" />
+                  <LayoutItem Id="ProcesadoMotor" ViewItem="ProcesadoMotor" />
+                  <LayoutItem Id="Modelo" ViewItem="Modelo" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Persona_Solicitudes_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Modelo" Index="-1" />
+        <ColumnInfo Id="ProcesadoMotor" Index="-1" Width="84" />
+        <ColumnInfo Id="ProcesarMotor" Index="-1" />
+        <ColumnInfo Id="ResultadoMotor" Index="-1" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Seguimiento">
+              <LayoutGroup Id="Seguimiento_col1">
+                <LayoutItem Id="SeguimientoProgramado" Index="3" RelativeSize="17.333333333333332" />
+              </LayoutGroup>
+              <LayoutGroup Id="Seguimiento_col2">
+                <LayoutItem Id="TelefonoContactado" RelativeSize="24" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="MontoChequesAprobados" RelativeSize="6.770833333333333" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="SeguimientosProgramados" RelativeSize="100">
+              <LayoutItem Id="SeguimientosProgramados" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.SeguimientoProgramado" ImageName="BO_Appointment" />
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Maestros">
+        <Items Id="Items">
+          <Item Id="PaisDocumento_ListView" ViewId="PaisDocumento_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Inicio">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView_Copy" ViewId="SeguimientoProgramado_ListView_Mis" />
+        </Items>
+      </Item>
+      <Item Id="Gestion">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView" ViewId="SeguimientoProgramado_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

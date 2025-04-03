@@ -1,0 +1,7 @@
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\bin\Debug\Shared.dll.config
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\bin\Debug\Shared.dll
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\bin\Debug\Shared.pdb
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\obj\Debug\Shared.dll
+C:\Users\default.LAPTOP-MOR577EP\OneDrive\Escritorio\PSA\pca\Shared\obj\Debug\Shared.pdb

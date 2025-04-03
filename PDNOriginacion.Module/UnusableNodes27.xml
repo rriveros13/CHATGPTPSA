@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Seguimiento_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Seguimiento">
+              <LayoutGroup Id="Seguimiento_col1">
+                <LayoutItem Id="TipoDocumento" RelativeSize="9.2857142857142865" Index="2" />
+                <LayoutItem Id="Persona" RelativeSize="9.2857142857142865" Index="3" />
+                <LayoutItem Id="Nombres" RelativeSize="9.2857142857142865" Index="7" />
+                <LayoutItem Id="Telefono" RelativeSize="12.857142857142858" Index="9" />
+                <LayoutItem Id="TelefonoContactado" RelativeSize="11.764705882352942" Index="10" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Seguimiento_col2">
+                <LayoutItem Id="Cuestionario" RelativeSize="12.857142857142858" Index="0" />
+                <LayoutItem Id="SeguimientoInicial" RelativeSize="9.2857142857142865" Index="1" />
+                <LayoutItem Id="SeguimientoProgramado" RelativeSize="9.2857142857142865" Index="3" />
+                <LayoutItem Id="Fecha" RelativeSize="15.789473684210526" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col1">
+                <LayoutItem Id="Titular" Index="5" RelativeSize="8.49673202614379" />
+              </LayoutGroup>
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="AProcesar" RelativeSize="11.764705882352942" />
+                <LayoutItem Id="MedioIngreso" RelativeSize="8.49673202614379" />
+                <LayoutItem Id="FechaEstadoActual" RelativeSize="8.49673202614379" />
+                <LayoutItem Id="ChequesAprobados" RelativeSize="8.49673202614379" Index="6" />
+                <LayoutItem Id="Estado" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

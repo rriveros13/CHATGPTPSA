@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="PropuestaComercial_ListView" AllowLink="False" AllowNew="False" AllowUnlink="False" />
+    <DetailView Id="InmuebleTasacion_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="InmuebleTasacion">
+              <LayoutGroup Id="InmuebleTasacion_col1">
+                <LayoutItem Id="SuperficieConstruidaM2" RelativeSize="5.4393305439330542" />
+                <LayoutItem Id="TotalConstruccion" Index="5" RelativeSize="5.4393305439330542" Removed="True" />
+                <LayoutItem Id="TotalInmueble" Index="5" RelativeSize="70.7112970711297" />
+              </LayoutGroup>
+              <LayoutGroup Id="InmuebleTasacion_col2">
+                <LayoutItem Id="Usuario" RelativeSize="81.589958158995813" Index="3" />
+                <LayoutItem Id="ValorM2Terreno" Index="3" RelativeSize="81.589958158995813" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.PropuestaComercial" DefaultListViewImage="BO_KPI_Scorecard">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Interes" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="Monto" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="MontoCuota" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="Porc25" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="Porc28" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="Porc30" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="ValorUltTasacion" DisplayFormat="{0:N0}" EditMask="N0" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="PropuestaComercial_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

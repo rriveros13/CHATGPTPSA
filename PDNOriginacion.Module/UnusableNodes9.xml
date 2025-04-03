@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Conyuge">
+                <LayoutItem Id="NacionalidadConyugue" ViewItem="NacionalidadConyugue" />
+              </LayoutGroup>
+              <LayoutGroup Id="Solicitud">
+                <LayoutGroup Id="Solicitud_col2">
+                  <LayoutItem Id="EstadoActual" ViewItem="EstadoActual" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

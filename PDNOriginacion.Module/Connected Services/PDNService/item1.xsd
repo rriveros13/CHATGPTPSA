@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PDN_GetModelos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="xsUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsPassword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PDN_GetModelosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PDN_GetModelosResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PDN_ConsultaExperto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="xsUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsProducto" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsModelo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsXml" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsActDat" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PDN_ConsultaExpertoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PDN_ConsultaExpertoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PDN_GetDatosEquifax">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="xsUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="codServicio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idConsulta" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="variable" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PDN_GetDatosEquifaxResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PDN_GetDatosEquifaxResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

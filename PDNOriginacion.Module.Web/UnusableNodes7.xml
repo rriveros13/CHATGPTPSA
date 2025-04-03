@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems" StartupNavigationItem="MisSolicitudes" />
+  <Views Id="Views">
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="CuentaCatastral" ViewItem="CuentaCatastral" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SolicitudPersonaEgreso_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SolicitudPersonaEgreso">
+              <LayoutGroup Id="SolicitudPersonaEgreso_col1" RelativeSize="50">
+                <LayoutItem Id="Concepto" Index="0" RelativeSize="37.373737373737377" />
+                <LayoutItem Id="Monto" Index="1" RelativeSize="26.262626262626263" />
+                <LayoutItem Id="Observacion" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+              <LayoutGroup Id="SolicitudPersonaEgreso_col2" RelativeSize="50">
+                <LayoutItem Id="ACancelar" RelativeSize="34.343434343434346" />
+                <LayoutItem Id="Demostrable" RelativeSize="65.656565656565661" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

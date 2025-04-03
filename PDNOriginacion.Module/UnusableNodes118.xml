@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="CampoPersona_ListView" AllowEdit="False" />
+    <DetailView Id="SolicitudPersona_DetailView_CREDIFACIL">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="SolicitudPersona">
+                <LayoutGroup Id="SolicitudPersona_col1">
+                  <LayoutItem Id="ResultadoMotor" ViewItem="ResultadoMotor" />
+                  <LayoutItem Id="ProcesarMotor" ViewItem="ProcesarMotor" />
+                  <LayoutItem Id="ProcesadoMotor" ViewItem="ProcesadoMotor" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Solicitud_DetailView_CREDIFACIL">
+      <Items Id="Items">
+        <PropertyEditor Id="SolicitudesAsociadas" PropertyName="SolicitudesAsociadas" View="Solicitud_SolicitudesAsociadas_ListView" />
+        <PropertyEditor Id="SolicitudAsociadaPersonaTitular" PropertyName="SolicitudAsociadaPersonaTitular" />
+      </Items>
+    </DetailView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutItem Id="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" ViewItem="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" />
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item6">
+                <LayoutItem Id="PoseeInmueble" ViewItem="PoseeInmueble" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutGroup Id="Auto1216c00c-db66-4f67-84b2-dade157de908">
+                  <LayoutItem Id="CRI_TieneTitulo" ViewItem="CRI_TieneTitulo" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecurityPolicy_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item2">
+                <LayoutItem Id="DCHostname" ViewItem="DCHostname" />
+                <LayoutItem Id="Dominio" ViewItem="Dominio" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SolicitudPersona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="SolicitudPersona">
+                <LayoutGroup Id="SolicitudPersona_col1">
+                  <LayoutItem Id="ResultadoMotor" ViewItem="ResultadoMotor" />
+                  <LayoutItem Id="ProcesarMotor" ViewItem="ProcesarMotor" />
+                  <LayoutItem Id="ProcesadoMotor" ViewItem="ProcesadoMotor" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Maestros">
+        <Items Id="Items">
+          <Item Id="PaisDocumento_ListView" ViewId="PaisDocumento_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Inicio">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView_Copy" ViewId="SeguimientoProgramado_ListView_Mis" />
+        </Items>
+      </Item>
+      <Item Id="Gestion">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView" ViewId="SeguimientoProgramado_ListView" />
+        </Items>
+      </Item>
+      <Item Id="@f3e1fdcc-cfa2-4286-9980-9cb345bbff5f">
+        <Items Id="Items">
+          <Item Id="CampoPersona_ListView" ViewId="CampoPersona_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="CampoPersona_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

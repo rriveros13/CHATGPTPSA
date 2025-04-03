@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="SeguimientoProgramado_ListView_Mis">
+      <Columns Id="Columns">
+        <ColumnInfo Id="MedioIngreso" PropertyName="MedioIngreso" Index="4" Width="70" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Persona">
+              <LayoutGroup Id="Persona_col1">
+                <LayoutItem Id="InteresadoPrestamo" Index="4" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="PoseeInmueble" Index="5" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="ProcesoCreditoExplicado" Index="6" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="MontoSolicitado" Index="7" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="MedioIngreso" Index="9" RelativeSize="5.0583657587548636" />
+              </LayoutGroup>
+              <LayoutGroup Id="Persona_col2">
+                <LayoutItem Id="FechaNacimiento" RelativeSize="7.0038910505836576" />
+                <LayoutItem Id="FormaDeSeguiminetoPreferida" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="Genero" RelativeSize="5.0583657587548636" />
+                <LayoutItem Id="HorarioSeguimiento" RelativeSize="5.0583657587548636" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SeguimientoProgramado_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SeguimientoProgramado">
+              <LayoutGroup Id="SeguimientoProgramado_col1">
+                <LayoutItem Id="Motivo" Index="2" RelativeSize="17.333333333333332" />
+              </LayoutGroup>
+              <LayoutGroup Id="SeguimientoProgramado_col2">
+                <LayoutItem Id="MedioIngreso" RelativeSize="24" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

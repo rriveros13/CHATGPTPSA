@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Persona">
+                <LayoutGroup Id="Persona_col2">
+                  <LayoutItem Id="MotivoRechazo" RelativeSize="5.882352941176471" />
+                  <LayoutItem Id="MotivoDescarte" RelativeSize="5.882352941176471" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="CuentaCatastral" ViewItem="CuentaCatastral" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item6">
+                <LayoutItem Id="OpeMoraDemandaInhi" RelativeSize="5.882352941176471" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

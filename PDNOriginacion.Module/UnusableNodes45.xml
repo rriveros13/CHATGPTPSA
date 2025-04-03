@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Presupuesto_GastosAdministrativos_ListView" DataAccessMode="Client" />
+    <DetailView Id="Presupuesto_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs" RelativeSize="71.2258064516129">
+            <LayoutGroup Id="GastosAdministrativos" RelativeSize="100">
+              <LayoutItem Id="GastosAdministrativos" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Prestamos" RelativeSize="100">
+              <LayoutItem Id="Prestamos" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Presupuesto">
+              <LayoutGroup Id="Presupuesto_col1">
+                <LayoutItem Id="Neto" RelativeSize="14.772727272727273" />
+              </LayoutGroup>
+              <LayoutGroup Id="Presupuesto_col2">
+                <LayoutItem Id="Tasa" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="Plazo" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="TotalImponderable" RelativeSize="35.227272727272727" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="PDNOriginacion.Module.BusinessObjects.Presupuesto">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Neto" DisplayFormat="{0:N0}" EditMask="N0" />
+        <Member Name="Tasa" DisplayFormat="{0:N2}" EditMask="N2" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

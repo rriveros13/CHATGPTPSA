@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Maestros">
+        <Items Id="Items">
+          <Item Id="PaisDocumento_ListView" ViewId="PaisDocumento_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Inicio">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView_Copy" ViewId="SeguimientoProgramado_ListView_Mis" />
+        </Items>
+      </Item>
+      <Item Id="Gestion">
+        <Items Id="Items">
+          <Item Id="SeguimientoProgramado_ListView" ViewId="SeguimientoProgramado_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="Solicitud_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Solicitud">
+              <LayoutGroup Id="Solicitud_col2">
+                <LayoutItem Id="MontoChequesAprobados" RelativeSize="8.78048780487805" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Persona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutItem Id="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" ViewItem="@3b7e2d7c-222c-4052-b4de-ee14b9d2ef0d" />
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item6">
+                <LayoutItem Id="PoseeInmueble" ViewItem="PoseeInmueble" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutGroup Id="Auto1216c00c-db66-4f67-84b2-dade157de908">
+                  <LayoutItem Id="CRI_TieneTitulo" ViewItem="CRI_TieneTitulo" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecurityPolicy_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item2">
+                <LayoutItem Id="DCHostname" ViewItem="DCHostname" />
+                <LayoutItem Id="Dominio" ViewItem="Dominio" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SolicitudPersona_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="SolicitudPersona">
+                <LayoutGroup Id="SolicitudPersona_col1">
+                  <LayoutItem Id="ResultadoMotor" ViewItem="ResultadoMotor" />
+                  <LayoutItem Id="ProcesarMotor" ViewItem="ProcesarMotor" />
+                  <LayoutItem Id="ProcesadoMotor" ViewItem="ProcesadoMotor" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
